@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.orderHeading{
+    color: blueviolet;
+    text-align: center;
+}
+.orderTable{
+    color: rgb(211, 32, 172);
+    margin-bottom: 10px;
+}
+img{
+    width: 100%;
+    height: 230px;
+}
+
+.orderPrice{
+    color: rgb(35, 216, 35);
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#oderBuyNow,
+.orderBtn{
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    padding: 5px 30px;
+    border-radius: 10px;
+    border: none;
+
+}
+#oderBuyNow:hover,
+.orderBtn:hover{
+    background-color: rgb(20, 228, 20);
+}
+#orderDelete{
+    margin-top: 20px;
+}
+#orderDelete:hover{
+    background-color: red;
+}
+.orderCards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .orderCard {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 4px;
+    padding: 20px;
+  }
+  .orders{
+    margin: auto;
+  }
+  .orderPizza{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px; 
+  }
+  .orders th {
+    color: rgb(21, 112, 230);
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #000;
+  }
+  
+  .orders td {
+    color: rgb(148, 93, 250);
+    padding: 10px;
+    border: 1px solid #000;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  
+  
+  
