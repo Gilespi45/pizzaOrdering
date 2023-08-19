@@ -210,6 +210,15 @@ app.delete('/orders', async (req, res) => {
     res.json({ error: 'Server error' });
   }
 });
+app.get('/', async(req,res)=>{
+try{
+  res.json({massage:"succesfull"})
+}catch(error){
+  res.json({massage:"error"});
+  console.log(error);
+}
+
+})
 
 app.listen(PORT, () => {
   console.log('Server listening on port', PORT);
